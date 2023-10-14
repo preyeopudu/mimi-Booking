@@ -7,7 +7,7 @@ import SidebarLink from "./SidebarLink";
 
 const Sidebar = () => {
   return (
-    <div className="flex w-1/5 p-4 text-center flex-col justify-between h-full relative">
+    <div className=" bg-white flex w-1/5 p-4 text-center flex-col justify-between h-full relative">
       {/* User Profile */}
       <div className="flex flex-col items-center space-x-2">
         <p className="font-bold text-3xl my-5 tracking-wider">

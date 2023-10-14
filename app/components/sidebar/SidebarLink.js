@@ -40,7 +40,7 @@ const SidebarLink = ({ label }) => {
   return (
     <div
       href={href}
-      className={`flex cursor-pointer w-full  px-2 my-1 items-center space-x-2 py-3 text-xl  ${
+      className={`flex   cursor-pointer w-full  px-2 my-1 items-center space-x-2 py-3 text-xl  ${
         isActive ? "text-black" : "text-gray-400"
       }`}
     >

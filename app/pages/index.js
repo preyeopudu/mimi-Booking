@@ -3,7 +3,7 @@ import SideBar from "../components/sidebar/Sidebar";
 
 const HomePage = () => {
   return (
-    <div className=" flex w-full max-h-screen h-screen">
+    <div className=" flex bg-gray-200 w-full max-h-screen h-screen">
       <SideBar />
       <MainPage />
     </div>
