@@ -9,7 +9,6 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { BsGrid, BsDot } from "react-icons/bs";
 import { BiPieChartAlt } from "react-icons/bi";
 import { LiaChevronCircleRightSolid } from "react-icons/lia";
-// Import necessary icons
 
 const iconMapping = {
   Dashboard: <RiHome5Fill />,
@@ -18,7 +17,6 @@ const iconMapping = {
   Favorites: <AiOutlineHeart />,
   Settings: <TbSettings2 />,
   Logout: <LiaChevronCircleRightSolid />,
-  // Add more icon mappings as needed
 };
 
 const pathMapping = {
@@ -28,7 +26,6 @@ const pathMapping = {
   Favorites: "/favorites",
   Settings: "/settings",
   Logout: "/logout",
-  // Add more path mappings as needed
 };
 
 const SidebarLink = ({ label }) => {
