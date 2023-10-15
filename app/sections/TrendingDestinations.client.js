@@ -78,8 +78,8 @@ const TrendingDestination = () => {
         <TrendingComponent />
       </div>
 
-      <div className="flex justify-center mt-4">
-        {[0, 1, 2, 3].map((index) => (
+      <div className="flex justify-center mt-6">
+        {[0, 1, 2].map((index) => (
           <div
             key={index}
             onClick={() => handleIndicatorClick(index)}
