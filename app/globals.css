@@ -4,4 +4,22 @@
 
 body {
   background: rgb(253, 253, 253);
+  webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* For Webkit browsers (like Chrome and Safari) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* For Internet Explorer */
+html {
+  -ms-overflow-style: none;
 }

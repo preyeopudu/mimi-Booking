@@ -1,4 +1,4 @@
-import MainPage from "../components/MainPage";
+import MainPage from "../components/MainPage.client";
 import SideBar from "../components/sidebar/Sidebar";
 
 const HomePage = () => {
